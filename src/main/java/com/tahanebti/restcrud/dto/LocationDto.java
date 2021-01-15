@@ -1,19 +1,11 @@
 package com.tahanebti.restcrud.dto;
 
-
-import com.tahanebti.restcrud.domain.User;
-
 import lombok.Data;
 
 @Data
-public class UserLocationDto {
-
-	private Long userId;
-	private String username;
+public class LocationDto {
+	private Long locationId;
 	private double lat;
 	private double lng;
 	private String place;
-	
-	
-
 }

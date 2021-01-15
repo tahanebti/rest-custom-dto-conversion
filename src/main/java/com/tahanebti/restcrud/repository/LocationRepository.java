@@ -8,4 +8,5 @@ import com.tahanebti.restcrud.domain.Location;
 @Repository
 public interface LocationRepository extends JpaRepository<Location, Long>{
 
+	Location findBylocationName(String name);
 }
